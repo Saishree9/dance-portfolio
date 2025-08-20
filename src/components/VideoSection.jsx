@@ -3,18 +3,19 @@ import { motion } from "framer-motion";
 
 const videos = [
   {
-    id: "H58Z1zqP6RM",
+    id: "H58Z1zqP6RM", // correct
     title: "Bharatanatyam Performance 1",
   },
   {
-    id: "zcHPLnfCrS0?si",
+    id: "zcHPLnfCrS0", // removed ?si
     title: "Bharatanatyam Performance 2",
   },
   {
-    id: "YmnTszcTJRY",
-    title: "Bharatanatyam Performance 2",
+    id: "YmnTszcTJRY", // correct
+    title: "Bharatanatyam Performance 3",
   },
 ];
+
 
 export default function VideoSection() {
   return (
